@@ -7,7 +7,7 @@ class NumberGuessing {
         System.out.println("Number Guessing Game! Start Now");
         Scanner sc = new Scanner(System.in);
         Random randint = new Random();
-        int r = randint.nextInt(1);
+        int r = randint.nextInt(100)+1;
         int n;
         int score = 100;
         do {
